@@ -28,10 +28,10 @@ const Navbar = () => {
               </div>
             <div className='nav-links'>
                 <ul>
-                    <li><Link to= '/coverpage'># Cover Page</Link></li>
-                    <li><Link to= '/'># My Tasks</Link></li>
+                    <li><Link to= '/'># Home Page</Link></li>
+                    <li><Link to= '/mytasks'># My Tasks</Link></li>
                     <li><Link to= '/create'># New Task</Link></li>
-                    <li><Link to= '/'># Edit Task</Link></li>
+                    <li><Link to= '/Mytasks'># Edit Task</Link></li>
                 </ul>
             </div>
         </nav>
