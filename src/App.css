@@ -205,3 +205,14 @@ footer ul li a{
   margin-right: 14pc;
   color: blue;
 }
+
+.centre{
+  text-align: center;
+  color: red;
+  margin-top: 5pc;
+}
+
+.pad h2{
+  margin-top: 2pc;
+  margin-bottom: 2pc;
+}

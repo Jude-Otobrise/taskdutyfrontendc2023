@@ -31,8 +31,8 @@ const Singletask = () => {
     }
 
   return (
-    <div>
-        <h3>{tag}</h3>
+    <div className='pad'>
+        <h3 className='centre'>{tag}</h3>
         <h2>{title}</h2>
         <p>{description}</p>
         <button onClick={handleDelete}>Delete Task</button>
