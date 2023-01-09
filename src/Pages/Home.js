@@ -23,7 +23,7 @@ const Home = () => {
     <h3 className='tag1'>Task Duty</h3> 
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non tellus, sapien, morbi ante nunc euismod ac felis ac. Massa et, at platea tempus duis non eget. Hendrerit tortor fermentum bibendum mi nisl semper porttitor. Nec accumsan.</p>
-    <button><Link to= '/'>Go to My Tasks</Link></button>
+    <button><Link to= '/Mytasks'>Go to My Tasks</Link></button>
 </div>
 <div class="col" className='col2'>
 <ul>
