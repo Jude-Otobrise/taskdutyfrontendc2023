@@ -1,22 +1,22 @@
 import './App.css';
 import{BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Mytasks from "./Pages/Mytasks";
+import Home from "./Pages/Home";
 import Create from './Pages/Create';
 import Navbar from './Components/Navbar';
 import Singletask from './Pages/Singletask';
 import Edit from './Pages/Edit';
-import Home from './Pages/Home';
+import Coverpage from './Pages/Coverpage';
 import Footer from "./Components/Footer";
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
      <Router>
       <Navbar />
       <Routes>
+        <Route path='/Coverpage' element= {<Coverpage />}/>
         <Route path='/' element= {<Home />}/>
-        <Route path='/mytasks' element= {<Mytasks />}/>
         <Route path='/create' element= {<Create />}/>
         <Route path='/:taskId' element= {<Singletask />}/>
         <Route path='edit/:taskId' element= {<Edit />}/>

@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import Tasks3 from "../Images/Tasks3.png";
 import saint from "../Images/saint.jpg";
-import {FaLessThan} from "react-icons/fa"
+import {FaLessThan} from "react-icons/fa";
 
 
 const Edit = () => {
@@ -49,6 +49,7 @@ const Edit = () => {
       </ul> 
     
     <div>
+        
         <h5><FaLessThan /> Edit Task</h5> <br></br>
 
         <form onSubmit={handleEdit}>
