@@ -31,7 +31,7 @@ const Navbar = () => {
                     <li><Link to= '/'># Edit Task</Link></li>
                     <li><Link to= '/create'># New Task</Link></li>
                     <li><Link to= '/'># My Tasks</Link></li>
-                    <li><Link to= '/Coverpage'># Coverpage Page</Link></li>               
+                    <li><Link to= '/Coverpage'># Cover Page</Link></li>               
                 </ul>
             </div>
         </nav>

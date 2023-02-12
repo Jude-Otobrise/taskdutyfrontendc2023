@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .img2{
   margin-right: 100pc;
   margin-top: 5pc;
@@ -16,7 +20,7 @@ top: 0px;
 border-radius: 0px;
 background-color: black;
 border: 0.5px solid #B8B6B6
-} 
+}  
 
 .nav-links ul li{
   list-style-type: symbols();
